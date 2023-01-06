@@ -37,6 +37,7 @@ li {
   border: 0;
   padding: 18px 36px;
 }
+
 .primary-color {
   color: #fd6e0a;
 }
@@ -105,6 +106,7 @@ main {
   color: #181818;
   margin-top: 0px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .section-dis {
@@ -175,4 +177,54 @@ main {
   margin: 10px;
   margin-top: 50px;
   border-radius: 15px;
+}
+
+.resume-cont{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px ;
+  padding: 20px;
+  gap: 28px;
+}
+
+
+.resume-title{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  margin-bottom: 20px ;
+  
+}
+
+.resume-subject{
+  font-weight: 700;
+font-size: 25px;
+margin-bottom: 4px;
+margin-top: 10px;
+}
+.resume-uni{
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #757575;
+  margin-bottom: 20px;
+  
+}
+.resume-dis{
+  font-weight: 400;
+font-size: 16px;
+color: #757575;
+padding: 10px;
+
+  
+}
+
+.border{
+
+  border-bottom: 1px solid black;
+}
+
+.rbtn{
+  margin-top: 50px;
+  text-align: center;
 }
